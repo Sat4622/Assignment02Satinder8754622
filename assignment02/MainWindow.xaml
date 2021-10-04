@@ -1,0 +1,42 @@
+﻿<Window x:Class="assignment02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:assignment02"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="BurlyWood">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Margin="5" FontSize="20" Content="Get Recatgle length"  HorizontalAlignment="Center"></Label>
+        <TextBox Grid.Row="0" Grid.Column="1"></TextBox>
+        <Label Grid.Row="1" Grid.Column="0" Margin="5" FontSize="20" Content="Change Recatgle length"  HorizontalAlignment="Center"></Label>
+        <TextBox Grid.Row="0" Grid.Column="2"></TextBox>
+        <Label Grid.Row="2" Grid.Column="0" Margin="5" FontSize="20" Content="Get Recatgle Width"  HorizontalAlignment="Center"></Label>
+        <TextBox Grid.Row="0" Grid.Column="3"></TextBox>
+        <Label Grid.Row="3" Grid.Column="0" Margin="5" FontSize="20" Content="Change Recatgle Width"  HorizontalAlignment="Center"></Label>
+        <TextBox Grid.Row="0" Grid.Column="4"></TextBox>
+        <Label Grid.Row="4" Grid.Column="0" Margin="5" FontSize="20" Content="Get Recatgle Height"  HorizontalAlignment="Center"></Label>
+        <TextBox Grid.Row="0" Grid.Column="5"></TextBox>
+        <Label Grid.Row="5" Grid.Column="0" Margin="5" FontSize="20" Content="Get Recatgle Height"  HorizontalAlignment="Center"></Label>
+        <TextBox Grid.Row="0" Grid.Column="6"></TextBox>
+        <Label Grid.Row="6" Grid.Column="0" Margin="5" FontSize="20" Content="Get Recatgle Volume"  HorizontalAlignment="Center"></Label>
+        <TextBox Grid.Row="0" Grid.Column="7"></TextBox>
+        <Button Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="3" Background="Beige" FontSize="30" Content="Exit" Click="OnCLickExit"></Button>
+        
+    </Grid>
+</Window>
